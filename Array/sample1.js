@@ -46,15 +46,7 @@ class MyArray {
 
 }
 
-// let student1 = new MyArray()
 
-// student1.push('rahnas')
-// student1.push('razal')
-// student1.unshift('kader')
-// student1.deleteByIndex(1)
-
-
-// console.log(student1)
 
 //reverse a string
 function reverse(str){

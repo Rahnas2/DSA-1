@@ -10,18 +10,14 @@ function RBS(arr, target, start, end = arr.length){
     if(target === arr[mid]) return mid
     
     if(arr[start] <= arr[mid]){
-        console.log('here')
         if(target >= arr[start] && target < arr[mid]){
-            console.log('first')
             return RBS(arr, target ,start, mid-1)
         }else{
-            console.log('second')
           return RBS(arr, target, mid+1, end)
         }
     }
 
     if(target > arr[mid] && target <= arr[end]){
-        console.log('ithar')
         return RBS(arr, target, mid+1, end)
     }
 
